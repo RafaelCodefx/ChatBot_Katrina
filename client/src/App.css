@@ -1,0 +1,96 @@
+/* Estilo geral da aplicação */
+.app {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: #f4f4f9;
+  color: #333;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.author {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.ia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.global{
+  box-shadow: 0 0 10px 4px;
+  padding: 50px;
+}
+.ia img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #007bff;
+}
+
+.ia h1 {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.text {
+  color: #007bff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.entrada {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  gap: 10px;
+}
+
+.input {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+  outline: none;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
